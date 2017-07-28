@@ -52,12 +52,21 @@ namespace doAutoDeployService.Models.Controller
 
             FileUtils.CopyDir(_sourcePath , _targetPath);
 
+            FileUtils.DeleteDir(Path.Combine(Constants.Temp, model.ProjectId));
+
             //判断是否存在build.sh脚本文件，如果有就执行
-            string shellFilePath = Path.Combine(_targetPath,Constants.ShellFile);
+            string shellFilePath = Path.Combine(_targetPath,Constants.ScripteFile);
             if (IOUtils.FileExists(shellFilePath)) {
-
+                int _code = CMDUtils.Execute(shellFilePath);
+                if (_code == 0)
+                {                                    
+                    //_logEngin.Debug("build " + _slnFile + " Success");
+                }
+                else
+                {
+                    //_logEngin.Debug("build " + _slnFile + " Fail");
+                }
             }
-
 
             return Ok();
         }

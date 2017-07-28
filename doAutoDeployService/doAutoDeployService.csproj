@@ -161,6 +161,7 @@
     <Compile Include="Models\Controller\AutoDeploy_N_NotifyController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Storage\QiniuManager.cs" />
+    <Compile Include="Utils\CmdUtils.cs" />
     <Compile Include="Utils\Constants.cs" />
     <Compile Include="Utils\FileUtils.cs" />
     <Compile Include="Utils\IOUtils.cs" />

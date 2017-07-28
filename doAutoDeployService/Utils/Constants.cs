@@ -13,7 +13,7 @@ namespace doAutoDeployService.Utils
 
         public static string Temp = RootPath + Path.DirectorySeparatorChar + "Temp";
 
-        public static string ShellFile = "Scripts" + Path.DirectorySeparatorChar + "build.sh";
+        public static string ScripteFile = "Scripts" + Path.DirectorySeparatorChar + "build.bat";
 
         ////////////////////////////////////////////////////////////
         public const string ConfigFile = "ConfigFile/Qiniu.config";
