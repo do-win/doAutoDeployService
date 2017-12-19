@@ -78,8 +78,8 @@ D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDep
 D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\bin\zh-Hans\System.Web.WebPages.resources.dll
 D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\obj\Debug\doAutoDeployService.csprojResolveAssemblyReference.cache
 D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\obj\Debug\doAutoDeployService.dll
 D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\obj\Debug\doAutoDeployService.pdb
 D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\bin\Qiniu.dll
 D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\bin\System.IO.Compression.ZipFile.dll
+D:\git\local\build\AutoBuildProject\doAutoBuildNew\doAutoDeployService\doAutoDeployService\obj\Debug\doAutoDeployService.csproj.CoreCompileInputs.cache

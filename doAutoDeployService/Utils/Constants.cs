@@ -9,7 +9,7 @@ namespace doAutoDeployService.Utils
     public class Constants
     {
 
-        public const string RootPath = "E:\\WebHome";
+        public const string RootPath = "C:\\WebHome";
 
         public static string Temp = RootPath + Path.DirectorySeparatorChar + "Temp";
 
